@@ -1,4 +1,6 @@
-<div style="text-align:center"># Neon Snake Game Deluxe 🐍✨</div>
+<p align="center">
+  <h1>Neon Snake Game Deluxe 🐍✨</h1>
+</p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
