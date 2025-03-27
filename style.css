@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0a0a1a; /* Dark blue/purple */
+    margin: 0;
+    font-family: 'Consolas', 'Courier New', monospace;
+    color: #eee;
+}
+
+.game-container {
+    position: relative; /* For positioning game over message */
+    text-align: center;
+    border: 2px solid #0ff; /* Cyan border */
+    box-shadow: 0 0 15px #0ff, 0 0 30px #0ff inset; /* Cyan glow */
+    padding: 20px;
+    background-color: rgba(10, 10, 26, 0.8); /* Slightly transparent dark background */
+    border-radius: 10px;
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-around; /* Space out score and high score */
+    margin-bottom: 10px;
+    width: 100%; /* Ensure it takes full width within container */
+}
+
+#gameCanvas {
+    background-color: #000;
+    /* Glow will be applied dynamically via JS or specific element styles */
+    border: 1px solid #333; /* Faint border for definition */
+}
+
+.score-display {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #f0f; /* Magenta score */
+    text-shadow: 0 0 5px #f0f, 0 0 10px #f0f; /* Magenta glow */
+}
+
+.high-score-display {
+    color: #0f0; /* Green high score */
+    text-shadow: 0 0 5px #0f0, 0 0 10px #0f0; /* Green glow */
+}
+
+/* Style for power-up (can be similar to food but different color) */
+/* We'll use a distinct color like bright orange */
+.power-up-color { color: #ffa500; }
+.power-up-glow { text-shadow: 0 0 7px #ffa500, 0 0 15px #ffa500; }
+
+
+.game-over-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: #ff0; /* Yellow game over */
+    text-shadow: 0 0 7px #ff0, 0 0 15px #ff0; /* Yellow glow */
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ff0;
+    box-shadow: 0 0 10px #ff0;
+    z-index: 10; /* Ensure it's above the canvas */
+}
