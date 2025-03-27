@@ -1,6 +1,4 @@
-<p align="center">
-  <h1>Neon Snake Game Deluxe 🐍✨</h1>
-</p>
+# Neon Snake Game Deluxe 🐍✨
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -54,4 +52,3 @@ A modern twist on the classic snake game, built with vanilla JavaScript, HTML5 C
 - JavaScript must be enabled.
 
 ## License
-This project is licensed under the MIT License.
